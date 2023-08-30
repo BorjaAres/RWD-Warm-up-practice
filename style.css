@@ -1,0 +1,74 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /*1rem = 10px*/}
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    text-align: center;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header {
+    background: linear-gradient(#d81317 5px, transparent 5px), url("images/beach.jpg");
+    background-size: cover; 
+    height: 76rem;
+}
+
+.header__title {
+    font-size: 5rem;
+    padding-top: 5px;   
+}
+
+.header__subtitle {
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.header__navbar {
+    padding-top: 2rem;
+    gap: 2rem;
+    display: inline-flex;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 9rem;
+    padding: 3rem 6rem;
+    align-items: center;
+}
+
+.content__text {
+    text-align: justify;
+    margin: 0rem 3rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    line-height: 1.5;
+}
+
+.content__image {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.footer-container {
+    background: linear-gradient(rgb(76, 76, 76) 105px, #d81317  0rem);
+    color: white;
+    padding: 40px;
+}
+
+.footer-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 23px;
+}
